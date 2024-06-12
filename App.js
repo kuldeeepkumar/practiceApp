@@ -4,12 +4,10 @@ import { Button } from 'react-native-web';
 
 export default function App() {
   let b = "mehaku";
-  let c = "priyanka";
-
-  console.log("my console is Here:",b,c)
-const  x=10;
-const y=20;
-sum=x+y;
+   console.log("my besti name:",b)
+const  x=20;
+const y=30;
+const a=6;
 console.log("here is sum:",x+y);
 console.log("here is subtraction:",x-y);
 console.log("here is multiplication:",x*y);
@@ -17,12 +15,20 @@ console.log("here is divison:",x/y);
 console.log("here is modules:",x%y);
 console.log("here is:",x>y);
 console.log("here is:",x<y);
+console.log("here is:",+a);
+console.log("here is:",-a);
+let datevar=new Date();
+console.log(datevar);
+let objectvar={name:"pinky",frnd:"ashu"};
+console.log(objectvar);
+let arrayvar=[1,2,3,4];
+console.log(arrayvar);
 
 
-  return (
+return (
     <View style={styles.container}>
-      <Text>pinky Bhatia</Text>
-      <Text>akshu</Text>
+      <Text>aman</Text>
+      <Text>nav</Text>
       <StatusBar style="auto" />
     </View>
   );
