@@ -4,12 +4,19 @@ import Exercise1 from './scr/exercises/Exercise1';
 
 export default function App() {
 
-  //  we have tried uniary operat
+  //  we have tried comparision operater
 let a = 10;
-  let c= a--;
-  let d=a++;
-  console.log("value:",c);
-  console.log("value:",d);
+let b=5;
+//equal to
+  console.log("value:",a==b); 
+  // not equalto
+  console.log("value:",a!=b);
+  //greater then equl to
+  console.log("value:",a>b);
+  //less then 
+  console.log("value:",a<b);
+  //less then equal to
+  console.log("value:",a<=b);
   return (
     <>
     <View style={styles.container}>
