@@ -4,23 +4,17 @@ import Exercise1 from './scr/exercises/Exercise1';
 
 export default function App() {
 
-  //  we have tried comparision operater
-let a = 10;
-let b=5;
-//equal to
-  console.log("value:",a==b); 
-  // not equalto
-  console.log("value:",a!=b);
-  //greater then equl to
-  console.log("value:",a>b);
-  //less then 
-  console.log("value:",a<b);
-  //less then equal to
-  console.log("value:",a<=b);
+  //  we have tried loop statement
+  age=28;
+  //if condition
+  if(age>=18)
+  {
+    console.log("you are eligibale to give vote");
+  }
   return (
     <>
     <View style={styles.container}>
-      <Text>ki hall chal hai dosto!</Text>
+      <Text>mrr jau ga lekin teri pyri pyri 2 akiya prr dance nhi karu ga!</Text>
       <StatusBar style="auto" />
     </View>
     <Exercise1/>
