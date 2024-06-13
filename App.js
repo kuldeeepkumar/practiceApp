@@ -5,11 +5,17 @@ export default function App() {
   const a=8;
   const b=7;
   const c=a+b;
+  const d=a-b;
+  const e=a*b;
+  const f=a/b;
   console.log("the sum is:",c);
+  console.log("the difference is:",d);
+  console.log("the multiplication is:",e);
+  console.log("the division is:",f);
   return (
     <View style={styles.container}>
 
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>hello guys</Text>
       <StatusBar style="auto" />
     </View>
   );
