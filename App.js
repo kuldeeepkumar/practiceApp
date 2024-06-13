@@ -3,11 +3,6 @@ import { StyleSheet, Text, View } from "react-native";
 import Excercise1 from "./src/exercises/Excercise1";
 
 export default function App() {
-  let a = 8;
-  console.log(+a);
-  console.log(-a);
-  console.log(++a);
-  console.log(--a);
   return (
     <>
       <View style={styles.container}>
