@@ -1,26 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Exercise1 from './scr/exercises/Exercise1';
 
 export default function App() {
-  const a=10;
-  const b=5;
-  const c=a<b;
-  const d=a>b;
-  const e=a<=b;
-  const f=a>=b;
-  const g=a==b;
-  const h=a!=b;
+
+  //  we have tried uniary operat
+let a = 10;
+  let c= a--;
+  let d=a++;
   console.log("value:",c);
   console.log("value:",d);
-  console.log("value:",e);
-  console.log("value:",f);
-  console.log("value:",g);
-  console.log("value:",h);
   return (
+    <>
     <View style={styles.container}>
       <Text>ki hall chal hai dosto!</Text>
       <StatusBar style="auto" />
     </View>
+    <Exercise1/>
+    </>
   );
 }
 
