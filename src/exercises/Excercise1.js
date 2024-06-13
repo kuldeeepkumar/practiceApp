@@ -3,10 +3,16 @@ import React from "react";
 
 const Excercise1 = () => {
   let a = 89;
-  if (a > 18) {
-    console.log("you are eligible for vote");
-  } else {
-    console.log("you are not eligible");
+  switch (a) {
+    case 90:
+      console.log("match");
+      break;
+    case 89:
+      console.log("match");
+      break;
+    default:
+      console.log("not match");
+      break;
   }
   return (
     <View>
