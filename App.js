@@ -11,8 +11,12 @@ export default function App() {
   {
     console.log("you are eligibale to give vote");
   }
+  else if(age<=15)
+  {
+     console.log("you are child");
+  }
   else{
-  console.log("you are child")
+    console.log("chapari hai tu");
   }
   return (
     <>
