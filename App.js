@@ -5,11 +5,14 @@ import Exercise1 from './scr/exercises/Exercise1';
 export default function App() {
 
   //  we have tried loop statement
-  age=28;
+  age=7;
   //if condition
   if(age>=18)
   {
     console.log("you are eligibale to give vote");
+  }
+  else{
+  console.log("you are child")
   }
   return (
     <>
