@@ -10,8 +10,7 @@ export default function App() {
   const f=a>=b;
   const g=a==b;
   const h=a!=b;
-
-console.log("value:",c);
+  console.log("value:",c);
   console.log("value:",d);
   console.log("value:",e);
   console.log("value:",f);
