@@ -1,7 +1,23 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const Exerciese1 = () => {
+// function is declared here
+export function yourFuntion(item) {
+  console.log("item is here:", item.value);
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item.value);
+  }
+}
+
+const Exercise1 = () => {
+  //  we are trying operators
+
+  const g = 1000;
+  const b = 200;
+  const c = g - b;
+  console.log(c);
+
   //if condtion is here
 
   const a = 5;
@@ -90,6 +106,7 @@ const Exerciese1 = () => {
     </View>
   );
 };
-export default Exerciese1;
+
+export default Exercise1;
 
 const styles = StyleSheet.create({});
