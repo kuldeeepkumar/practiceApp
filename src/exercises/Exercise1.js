@@ -2,6 +2,14 @@ import { StyleSheet, Text, View } from "react-native";
 
 import React from "react";
 
+export function yourFuntion(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item);
+  }
+  console.log("item:", item);
+}
+
 const Exercise1 = () => {
   // -------------->>>>>>>>>>>>>>>>>Variable Declaration<<<<<<<<<<<<<<<<---------------
 

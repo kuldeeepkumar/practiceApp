@@ -1,18 +1,42 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import React from "react";
+import { yourFuntion } from "./Exercise1";
 
 const Exercise2 = () => {
   // Funtion Declaration code is here
-  console.log("file 2 is here");
+  function myFuntion(item) {
+    let a = 3;
+    if (a > 2) {
+      console.log("sum", a + item);
+    }
+  }
 
   return (
-    <View>
-      <Text>Exercise2</Text>
+    <View style={styles.container}>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => {
+          myFuntion();
+          yourFuntion(10);
+        }}>
+        <Text>CLick Me</Text>
+      </TouchableOpacity>
     </View>
   );
 };
 
 export default Exercise2;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  button: {
+    backgroundColor: "pink",
+    padding: 10,
+  },
+});
