@@ -1,9 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+
+//function declaration code is here
+
+export function yourfunction(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("export function sum", a + item);
+  }
+}
 
 const Exercise1 = () => {
-
-     // If condition code is here
+  // If condition code is here
   const a = 5;
   if (a > 4) {
     console.log("am here ");
@@ -107,9 +115,9 @@ const Exercise1 = () => {
     <View>
       <Text>Exercise1</Text>
     </View>
-  )
-}
+  );
+};
 
-export default Exercise1
+export default Exercise1;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
