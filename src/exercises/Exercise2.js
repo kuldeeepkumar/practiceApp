@@ -1,6 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import React from "react";
-
+export function yourFunction(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item);
+  }
+  console.log("item:", item);
+}
 const Exercise2 = () => {
   //...>>>>>>>>>>>>>>function to add two number<<<<<<<<<<<<<<.....
   function add(a, b) {
