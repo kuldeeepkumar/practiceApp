@@ -32,22 +32,40 @@ const Exercise1 = () => {
   }
   //......<<<<<<<<<<<< program relate to for loop >>>>>>>>>>>......
   for (let i = 0; i < 7; i++) {
-    console.log(i);
+    console.log("for loop", i);
   }
   //.....<<<<<<<<<< relate to to while loop>>>>>>>>>>.....
-  let i = 6;
-  while (i <= 4) {
-    console.log(i);
-    i++;
+  let k = 1;
+  while (k <= 4) {
+    console.log("while loop", k);
+    k++;
   }
   //.......<<<<<<< do while loop >>>>>>......
+  let l = 1;
   do {
-    console.log(i);
-    i++;
-  } while (i <= 5);
+    console.log("do while loop", l);
+    l++;
+  } while (l <= 5);
+  console.log("For In Loop statement");
+  const bss = {
+    name: "dumy name ",
+    rollnumber: 564,
+    age: 19,
+  };
+  for (const item in bss) {
+    console.log("data is here", item, ":" + bss[item]);
+  }
+
+  //---------->>>>>>>>>>For of Loop statement<<<<<<<<<<----------
+  console.log("For of Loop satement ");
+  const array = [1, 2, 3, 4, 5];
+
+  for (const element of array) {
+    console.log(element);
+  }
   return (
     <View>
-      <Text>Exercise 1</Text>
+      <Text>Exercise1</Text>
     </View>
   );
 };
