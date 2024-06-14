@@ -29,7 +29,7 @@ const Exercise2 = () => {
 
   return (
     <View>
-      <Text>Exercise 2</Text>
+      <Text>Exercise two</Text>
     </View>
   );
 };
