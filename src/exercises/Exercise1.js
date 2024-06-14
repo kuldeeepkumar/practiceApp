@@ -1,10 +1,20 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+
+export function yourfunction(item) {
+  let a = 3;
+  if (a > 2);
+  {
+    console.log("export function sum is here", a + item);
+  }
+}
+
 const Exercise1 = () => {
   //------------------------------OPERATORS----------------
 
   const r = 100;
   const k = 50;
+  3333;
   console.log("sum is here:", r + k);
   console.log("sub is here:", r - k);
   console.log("mult is here:", r * k);
