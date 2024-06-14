@@ -3,6 +3,18 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
 const Exercise1 = () => {
+  // -------------->>>>>>>>>>>>>>>>>Variable Declaration<<<<<<<<<<<<<<<<---------------
+
+  let ke = 6549879;
+  var b = "b or boy";
+  const c = "c for cat";
+  let y;
+  y = "y for yellow";
+
+  const t = false;
+  const d = true;
+  console.log("sum is here: ", t && d);
+
   // -------------->>>>>>>>>>>>>>>>>Conditional Statements<<<<<<<<<<<<<<<<---------------
 
   // If condition code is here
