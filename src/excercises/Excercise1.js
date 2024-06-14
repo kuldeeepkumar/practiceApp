@@ -1,6 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
+//Function Declaration code is here
+export function yourFunction(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item);
+  }
+}
+
 export const Excercise1 = () => {
   // Operators are here
   let b = "Neha";
