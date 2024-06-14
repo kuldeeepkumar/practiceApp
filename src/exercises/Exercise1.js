@@ -1,113 +1,138 @@
 import { StyleSheet, Text, View } from "react-native";
+
 import React from "react";
 
+export function yourFuntion(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item);
+  }
+  console.log("item:", item);
+}
+
 const Exercise1 = () => {
-  console.log("Conditional Statements");
+  // -------------->>>>>>>>>>>>>>>>>Variable Declaration<<<<<<<<<<<<<<<<---------------
 
-  //---------->>>>>>>>>>if statement<<<<<<<<<<----------
-  console.log("If statement");
-  let age = 18;
-  if ((age) => 18) {
-    console.log("You are an adult");
+  let ke = 6549879;
+  var b = "b or boy";
+  const c = "c for cat";
+  let y;
+  y = "y for yellow";
+
+  const t = false;
+  const d = true;
+  console.log("sum is here: ", t && d);
+
+  // -------------->>>>>>>>>>>>>>>>>Conditional Statements<<<<<<<<<<<<<<<<---------------
+
+  // If condition code is here
+  const a = 5;
+  if (a > 4) {
+    console.log("am here ");
   }
+  // if else condition code is here
 
-  //---------->>>>>>>>>>if else statement<<<<<<<<<<------------
-  console.log("If Else statement");
-  let marks = 32;
-  if (marks > 33) {
-    console.log("Try your best ,next time ");
+  // if (a > 5) {
+  //   console.log("block one is working");
+  // } else {
+  //   console.log("block two is working");
+  // }
+
+  // else if condition code is here
+
+  if (a > 5) {
+    console.log("block one is working ");
+  } else if (a > 6) {
+    console.log("block two is working");
+  } else if (a > 10) {
+    console.log("block three is working");
   } else {
-    console.log("yoy are pass");
+    console.log("nothing is working");
   }
+  // switch statement code is here
 
-  //---------->>>>>>>>>>if else if statement<<<<<<<<<<----------
-  console.log("If Else If statement");
-  let Passing_Marks = 60;
-  if ((Passing_Marks) => 80) {
-    console.log("A grade");
-  } else if (Passing_Marks < 80 || Passing_Marks > 70) {
-    console.log("B grade");
-  } else if (Passing_Marks < 70 || Passing_Marks > 60) {
-    console.log("C grade");
-  } else if (Passing_Marks < 60 || Passing_Marks > 50) {
-    console.log("D grade");
-  } else {
-    console.log("E grade");
-  }
+  const abc = "Sunday";
 
-  //---------->>>>>>>>>>Switch Statement<<<<<<<<<<----------
-  console.log("Switch Case statement");
-  let color = "blue";
-  switch (color) {
-    case "blue":
-      console.log("The color is blue");
+  switch (abc) {
+    case "Monday":
+      console.log("Monday is here");
       break;
-    case "black":
-      console.log("The color is black");
+    case "Tuesday":
+      console.log("Tuesday is here");
       break;
-    case "red":
-      console.log("The color is red");
+    case "Wednessday":
+      console.log("Wednessday is here");
+      break;
+    case "Thursday":
+      console.log("Thursday is here");
+      break;
+    case "Friday":
+      console.log("Friday is here");
+      break;
+    case "Saturday":
+      console.log("Saturday is here");
+      break;
+    case "Sunday":
+      console.log("Sunday is here");
+      break;
     default:
-      console.log("color is not matched");
       break;
   }
 
-  console.log("Loppinfg Statement");
+  // -------------->>>>>>>>>>>>>>>>>Looping Statements<<<<<<<<<<<<<<<<---------------
 
-  //---------->>>>>>>>>>For Loop<<<<<<<<<<-----------
-  console.log("For Lopp Statement");
-  for (let aa = 1; aa <= 5; aa++) {
-    console.log(aa);
+  // for loop code is here
+
+  for (let b = 1; b <= 6; b++) {
+    console.log("for execution : ", b);
   }
 
-  //---------->>>>>>>>>>While Lopp statement<<<<<<<<<<-----------
-  console.log("while Loop statement");
-  let bb = 1;
-  while (bb <= 5) {
-    console.log(bb);
-    bb++;
-  }
+  // while loop code is here
 
-  //---------->>>>>>>>>>Do While Loop Statement<<<<<<<<<<----------
-  console.log("Do While Lopp statement");
-  let cc = 1;
+  let i = 0;
+  while (i < 5) {
+    console.log("While execution :", i);
+    i++;
+  }
+  // do while loop code is here
+
+  let p = 0;
   do {
-    console.log(cc);
-    cc++;
-  } while (cc <= 5);
+    console.log("do while execution :", p);
+    p++;
+  } while (p < 5);
 
-  //---------->>>>>>>>>>>For In Loop Statement<<<<<<<<<<-----------
-  console.log("For In Loop statement");
-  const bss = {
-    name: "dumy name ",
-    rollnumber: 564,
-    age: 19,
+  // for in while loop code is here
+
+  const person = {
+    name: "John",
+    age: 30,
+    city: "New York",
+    mobileno: 645567498,
+    email: "john@gmail.com",
+    hobby: "music",
   };
-  for (const item in bss) {
-    console.log("data is here", item, ":" + bss[item]);
+
+  for (let key in person) {
+    console.log(key + ": " + person[key]);
   }
 
-  //---------->>>>>>>>>>For of Loop statement<<<<<<<<<<----------
-  console.log("For of Loop satement ");
-  const array = [1, 2, 3, 4, 5];
+  // for of loop code is here
 
-  for (const element of array) {
-    console.log(element);
+  const colors = ["red", "green", "blue", "yellow"];
+
+  for (let key of colors) {
+    console.log(key);
   }
+
+  // -------------->>>>>>>>>>>>>>>>>Function delaration and its use <<<<<<<<<<<<<<<<---------------
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.container}>exercise</Text>
+    <View>
+      <Text>Exercise1</Text>
     </View>
   );
 };
-
 export default Exercise1;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-
-    alignItems: "center",
-  },
-});
+const styles = StyleSheet.create({});
