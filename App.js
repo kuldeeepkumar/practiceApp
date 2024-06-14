@@ -1,15 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import Excercise1 from "./src/exercises/Excercise1";
+import Excercise2 from "./src/exercises/Excercise2";
 
 export default function App() {
   return (
     <>
-      <View style={styles.container}>
-        <Text>hello guys</Text>
-        <StatusBar style="auto" />
-      </View>
       <Excercise1 />
+      {/*<Excercise2 />*/}
     </>
   );
 }
