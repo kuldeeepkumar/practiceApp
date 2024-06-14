@@ -1,6 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
+export function yourfuncation(abc) {
+  let a = 3;
+  if (a > 2) {
+    console.log("export function sum is here", a + abc);
+  }
+}
+
 const Exercise1 = () => {
   // -------------->>>>>>>>>>>>>>>>>variable declaration and operaters are done code is as given below <<<<<<<<<<<<<<<<---------------
 
@@ -29,7 +36,6 @@ const Exercise1 = () => {
   console.log(stringvar);
   let booleanvar = true;
   console.log(booleanvar);
-
 
   // -------------->>>>>>>>>>>>>>>>>Conditional Statements<<<<<<<<<<<<<<<<---------------
 

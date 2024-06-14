@@ -7,8 +7,8 @@ export default function App() {
 
   return (
     <>
-      <Exercise1 />
-      {/* <Exercise2 /> */}
+      {/* <Exercise1 /> */}
+      <Exercise2 />
     </>
   );
 }
