@@ -1,6 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+// Funtion Declaration code is here
+export function yourFuntion(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item);
+  }
+}
 const Exercise1 = () => {
   // -------------->>>>>>>>>>>>>>>>>Conditional Statements<<<<<<<<<<<<<<<<---------------
 
@@ -9,7 +15,7 @@ const Exercise1 = () => {
   if (a < 4) {
     console.log("am here ");
   }
-    // if else condition code is here
+  // if else condition code is here
 
   if (a > 5) {
     console.log("block one is working");
@@ -17,10 +23,9 @@ const Exercise1 = () => {
     console.log("block two is working");
   }
 
-// else if condtion code is here 
+  // else if condtion code is here
 
-
-if (a > 5) {
+  if (a > 5) {
     console.log("block one is working ");
   } else if (a > 6) {
     console.log("block two is working");
@@ -59,40 +64,39 @@ if (a > 5) {
     default:
       break;
   }
-//   // -------------->>>>>>>>>>>>>>>>>Looping Statements<<<<<<<<<<<<<<<<---------------
+  //   // -------------->>>>>>>>>>>>>>>>>Looping Statements<<<<<<<<<<<<<<<<---------------
 
   // for loop code is here
 
   for (let b = 1; b <= 6; b++) {
     console.log("for execution : ", b);
   }
-// // while loop code is here
+  // // while loop code is here
 
   let i = 0;
   while (i < 5) {
     console.log("While execution :", i);
     i++;
   }
-//  // do while loop code is here
+  //  // do while loop code is here
 
   let p = 0;
   do {
     console.log("do while execution :", p);
     p++;
   } while (p < 5);
-  
-// // for in while loop code is here
 
+  // // for in while loop code is here
 
-  };const person = {
+  const person = {
     name: "John",
     age: 30,
     city: "New York",
     mobileno: 645567498,
     email: "john@gmail.com",
     hobby: "music",
-  }
-  let a = "kuldeep";
+  };
+
   let ke = 6549879;
   var b = "b or boy";
   const c = "c for cat";
@@ -105,17 +109,13 @@ if (a > 5) {
 
   const colors = ["red", "green", "blue"];
 
-
-
- 
-
   return (
     <View>
       <Text>Exercise1</Text>
     </View>
-  )
-}
+  );
+};
 
-export default Exercise1
+export default Exercise1;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});

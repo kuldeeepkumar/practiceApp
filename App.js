@@ -1,29 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Exercise1 from './src/exercises/Exercise1';
-
-
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import Exercise1 from "./src/exercises/Exercise1";
+import Exercise2 from "./src/exercises/Exercises2";
 
 export default function App() {
-  console.log("meenakshi")
-
   return (
-<>
-
-<View style={styles.container}>
-      <Text>hello</Text>
-      <StatusBar style="auto" />
-    </View>
-<Exercise1/>
-</>
+    <>
+      <Exercise1 />
+      <Exercise2 />
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
