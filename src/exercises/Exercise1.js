@@ -1,62 +1,68 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+
+export function yourfunction(item) {
+  let a = 4;
+  if (a > 4) {
+    console.log("sum:", a + item);
+  }
+  console.log("item:", item);
+}
 
 const Exercise1 = () => {
-  let  x=20;
-let y=30;
-let a=6;
-console.log("here is sum:",x+y);
-console.log("here is subtraction:",x-y);
-console.log("here is multiplication:",x*y);
-console.log("here is divison:",x/y);
-console.log("here is modules:",x%y);
-console.log("greater than:",x>y);
-console.log("less than:",x<y);
-console.log("equal to:",x==y);
-console.log("not equal to:",x!=y);
-console.log("here is unary plus:",+a);
-console.log("here is unary minus:",-a);
-console.log("here is increment:",++a);
-console.log("here is:decremant",--a);
-let datevar=new Date();
-console.log(datevar);
-let objectvar={name:"pinky",frnd:"ashu"};
-console.log(objectvar);
-let arrayvar=[1,2,3,4];
-console.log(arrayvar);
-let numbervar=234566;
-let stringvar="akshu";
-let booleanvar=true;
-let nullvar=null ;
-console.log(numbervar);
-console.log(stringvar);
-console.log(booleanvar);
-console.log(nullvar);
-let pp=10;
-console.log(pp+=5);
-console.log(pp-=5);
-console.log(pp*=1);
-console.log(pp/=4);
-let k=true;
-let l=false;
-console.log(k&&l);
-console.log(k||l);
-console.log(!k);
-    
+  let x = 20;
+  let y = 30;
+  let a = 6;
+  console.log("here is sum:", x + y);
+  console.log("here is subtraction:", x - y);
+  console.log("here is multiplication:", x * y);
+  console.log("here is divison:", x / y);
+  console.log("here is modules:", x % y);
+  console.log("greater than:", x > y);
+  console.log("less than:", x < y);
+  console.log("equal to:", x == y);
+  console.log("not equal to:", x != y);
+  console.log("here is unary plus:", +a);
+  console.log("here is unary minus:", -a);
+  console.log("here is increment:", ++a);
+  console.log("here is:decremant", --a);
+  let datevar = new Date();
+  console.log(datevar);
+  let objectvar = { name: "pinky", frnd: "ashu" };
+  console.log(objectvar);
+  let arrayvar = [1, 2, 3, 4];
+  console.log(arrayvar);
+  let numbervar = 234566;
+  let stringvar = "akshu";
+  let booleanvar = true;
+  let nullvar = null;
+  console.log(numbervar);
+  console.log(stringvar);
+  console.log(booleanvar);
+  console.log(nullvar);
+  let pp = 10;
+  console.log((pp += 5));
+  console.log((pp -= 5));
+  console.log((pp *= 1));
+  console.log((pp /= 4));
+  let k = true;
+  let l = false;
+  console.log(k && l);
+  console.log(k || l);
+  console.log(!k);
 
-    
-    // If condition code is here
+  // If condition code is here
   const aa = 5;
   if (aa > 4) {
     console.log("am here ");
   }
   // if else condition code is here
 
-   if (a > 5) {
-   console.log("block one is working");
-   } else {
-     console.log("block two is working");
-   }
+  if (a > 5) {
+    console.log("block one is working");
+  } else {
+    console.log("block two is working");
+  }
 
   // else if condition code is here
 
@@ -98,9 +104,9 @@ console.log(!k);
     default:
       break;
   }
-   // for loop code is here
+  // for loop code is here
 
-   for (let b = 1; b <= 6; b++) {
+  for (let b = 1; b <= 6; b++) {
     console.log("for execution : ", b);
   }
 
@@ -141,9 +147,6 @@ console.log(!k);
     console.log(key);
   }
 
-
-    
-    
   return (
     <View>
       <Text>Exercise1</Text>
@@ -151,6 +154,6 @@ console.log(!k);
   );
 };
 
-export default Exercise1
+export default Exercise1;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
