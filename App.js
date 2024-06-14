@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Excercise1 />
-      {/*<Excercise2 />*/}
+      <Excercise2 />
     </>
   );
 }
