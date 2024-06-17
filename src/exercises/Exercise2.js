@@ -13,17 +13,17 @@ const Exercise2 = () => {
     }
   }
   return (
-    <view style={styles.container}>
+    <View style={styles.container}>
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
           myfunction();
-          yourfunction(20);
+          yourfunction(50);
         }}
       >
         <Text>click Me</Text>
       </TouchableOpacity>
-    </view>
+    </View>
   );
 };
 export default Exercise2;
@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: "pink",
-    padding: 10,
+    padding: 15,
   },
 });

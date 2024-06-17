@@ -2,8 +2,8 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
 export function yourfunction(item) {
-  let a = 4;
-  if (a > 4) {
+  let a = 3;
+  if (a > 2) {
     console.log("sum:", a + item);
   }
   console.log("item:", item);
