@@ -3,7 +3,6 @@ import React from 'react'
 
 const Exercise3 = () => {
 
-
 const fruit=['apple', 'banana', 'cherry', ];
 //console.log(fruit);
 
@@ -11,7 +10,7 @@ const fruit=['apple', 'banana', 'cherry', ];
 
 // Push method adds elements to the end
 
-//fruit.push("date"); // ['apple', 'banana', 'cherry', 'date']
+//fruit.push("apple"); // ['apple', 'banana', 'cherry', 'date']/
 
 // Unshift method adds elements to the beginning
  //fruits.unshift("orange"); // ['orange', 'apple', 'banana', 'cherry', 'date']
@@ -42,7 +41,7 @@ console.log("my array is here", fruit);
 //------------------>>>>>>>>>>>> Array Traversal <<<<<<<<<<<-----------------
 
 // Using forEach to iterate
-// fruits.forEach((fruit) => {
+//  fruit.forEach((fruit) => {
 //   console.log(fruit);
 // });
 
