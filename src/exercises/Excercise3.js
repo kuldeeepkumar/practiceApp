@@ -8,7 +8,7 @@ const Excercise3 = () => {
 
   //...................................<<<<<Array Manipulation>..............................
   //to add array elements
-  //array push() method...........
+  //array push() method........................................
   fruit.push("cherry");
   console.log("my array is here:", fruit);
 
@@ -20,7 +20,7 @@ const Excercise3 = () => {
   fruit.splice(2, 0, "guava");
   console.log("my array is here:", fruit);
 
-  //TO remove array elements..........................
+  //TO remove array elements...................................
   //array pop() method
   fruit.pop();
   console.log("my array is here:", fruit);
@@ -33,13 +33,13 @@ const Excercise3 = () => {
   fruit.splice(2, 1);
   console.log("my array is here:", fruit);
 
-  //to update array elements
+  //to update array elements..................................
   fruit[1] = "watermelon";
   console.log("my array is here:", fruit);
 
   return (
     <View>
-      <Text>Array and its traversal</Text>
+      <Text>array and array manipulation</Text>
     </View>
   );
 };
