@@ -1,22 +1,43 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import React from "react";
-
-export function yourFuntion(item) {
-  let a = 3;
-  if (a > 2) {
-    console.log("sum", a + item);
-  }
-  console.log("item:", item);
-}
+import { yourfunction } from "./Exercise1";
 
 const Exercise2 = () => {
+  function myfunction() {
+    let a = 3;
+    if (a > 2);
+    {
+      console.log("normal function sum", a + 3);
+    }
+    33;
+  }
+
   return (
-    <View>
-      <Text>exercise2</Text>
+    <View style={styles.container}>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => {
+          myfunction();
+          yourfunction(10);
+        }}
+      >
+        <Text>CLick Me</Text>
+      </TouchableOpacity>
     </View>
   );
 };
 
 export default Exercise2;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  button: {
+    backgroundColor: "pink",
+    padding: 10,
+  },
+});
