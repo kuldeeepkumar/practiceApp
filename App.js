@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Exercise2 from "./scr/exercises/Excercise2";
 import Exercise3 from "./scr/exercises/Exercise3";
 import Exercise1 from "./scr/exercises/Exercise1";
+import Exercise4 from "./scr/exercises/Exercise4";
 
 
 
@@ -11,7 +12,8 @@ export default function App() {
     <>
        {/* <Exercise1 /> */}
        {/* <Exercise2/> */}
-       <Exercise3/>
+       {/*<Exercise3/> */}
+       <Exercise4/>
       
     </>
   );
