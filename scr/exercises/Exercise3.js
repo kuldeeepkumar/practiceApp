@@ -13,7 +13,7 @@ const Exercise3 = () => {
  
     fruits.push("date"); 
     
-    console.log("my array is here", fruits);
+    console.log("my array is here", fruits); 
  
    // Unshift method adds elements to the beginning
     fruits.unshift("orange"); 
