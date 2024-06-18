@@ -20,7 +20,7 @@ const Excercise2 = () => {
           yourFunction(10);
         }}
       >
-        <Text>Excercise2</Text>
+        <Text>click me</Text>
       </TouchableOpacity>
     </View>
   );
