@@ -27,11 +27,11 @@ const Exercise4 = () => {
     },
   ];
   array1.forEach((element) => {
-    console.log("element value", element.city);
+    console.log("element value:", element.city);
   });
 
   //using map to trasform elements
-  const newarray = array.map((item) => item * 2);
+  const newarray = array.map((item) => item * 3);
   console.log("new array", newarray);
 
   //using for of loop
@@ -47,6 +47,10 @@ const Exercise4 = () => {
     0
   );
   console.log(sum);
+
+  //using map to transform elmenets
+  let uppercasedcolors = colors.map((color) => color.toUpperCase());
+  console.log(uppercasedcolors);
 
   return (
     <View style={styles.container}>

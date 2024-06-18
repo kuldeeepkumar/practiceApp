@@ -33,28 +33,6 @@ const Exercise3 = () => {
   colors[2] = "black";
   console.log("update  method is here:", colors);
 
-  //----------------------->>>>>>>>>>>>>>  Array Traversal<<<<<<<<<<<<<<--------------------
-  //using for each loop
-  colors.forEach((color) => {
-    console.log(color);
-  });
-
-  //using map to trasform elements
-  let uppercasedcolos = colors.map((colors) => colors.toUpperCase());
-  console.log(uppercasedcolos);
-
-  //using for of loop
-  for (let color of colors) {
-    console.log(color);
-  }
-  //using array method (e.g.,filter,reduce,etc)
-  constfilterscolors = colors.filter((color) => color !== "blue");
-  const sum = numbers.reduce(
-    (accumulator, currentValue) => accumulator + currentValue,
-    0
-  );
-  console.log(sum);
-
   return (
     <View>
       <Text>Exercise3</Text>
