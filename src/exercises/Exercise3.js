@@ -3,7 +3,7 @@ import React from "react";
 
 const Exercise3 = () => {
   const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  const colors = ["pink", "orange", "yellow", "blue"];
+  const colors = ["pink", "orange", "yellow", "blue", "black"];
   console.log(colors);
   let color = colors.length;
   console.log("array length:", color);
