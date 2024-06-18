@@ -38,22 +38,6 @@ const Exercise3 = () => {
 
   console.log("my array is here", fruits);
 
-  //------------------>>>>>>>>>>>> Array Traversal <<<<<<<<<<<-----------------
-
-  // Using forEach to iterate
-  // fruits.forEach((fruit) => {
-  //   console.log(fruit);
-  // });
-
-  // Using map to transform elements
-  // let uppercasedFruits = fruits.map((fruit) => fruit.toUpperCase());
-  // console.log(uppercasedFruits); // ['APPLE', 'BANANA', 'CHERRY']
-
-  // Using for...of loop
-  // for (let fruit of fruits) {
-  //   console.log(fruit);
-  // }
-
   return (
     <View style={styles.container}>
       {fruits.map((item) => (
