@@ -4,6 +4,7 @@ import Exercise1 from "./src/exercises/Exercise1";
 import Exercise2 from "./src/exercises/Exercise2";
 import Loop from "./src/exercises/Loop";
 import Exercise3 from "./src/exercises/Exercise3";
+import Exercise4 from "./src/exercises/Exercise4";
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       {/* <Exercise1 /> */}
       {/* <Exercise2 /> */}
       {/* <Loop /> */}
-      <Exercise3 />
+      {/*<Exercise3 /> */}
+      <Exercise4 />
     </>
   );
 }
