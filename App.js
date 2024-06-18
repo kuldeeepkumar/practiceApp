@@ -2,6 +2,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import Exercise1 from "./src/exercises/Exercise1";
 import Exercise2 from "./src/exercises/Exercise2";
+import Exercise3 from "./src/exercises/Exercise3";
 import { StatusBar } from "expo-status-bar";
 import { kuldeep } from "./src/components/index";
 
@@ -13,7 +14,8 @@ export default function App() {
       {/* <Exercise1 /> */}
 
       {/* Funtion Declaration  */}
-      <Exercise2 />
+      {/* <Exercise2 /> */}
+      <Exercise3 />
     </>
   );
 }
