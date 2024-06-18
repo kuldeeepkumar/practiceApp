@@ -6,12 +6,13 @@ const Exercise3 = () => {
     const numbers = [1,2,3,4,4,5];
     const color  = ["red","pink","blue", "purple", "white"];
     console.log("is here numbers",numbers);
+    const array = [1,2,3,4,5];
     console.log("array length", color);
     //push method is here
-    numbers.push[5];
+    numbers.push[2];
     console.log("is here color",numbers);
     //unshift method is here
-    color.unshift("pink");
+    color.unshift("blue");
     console.log("My array is here",color);
     fruits.unshift("aaple");
      console.log("is here",fruits);
@@ -24,15 +25,17 @@ const Exercise3 = () => {
     console.log("is here", fruits);
 
     //removing elements at the specific positions
-    color.splice(1, 2);
+    color.splice(2, 3);
     console.log("is here", color);
 
     //updating an element
-    fruits[1] = "kiwi";
+    fruits[1] = "litchi";
     console.log("fruits");
 
-    for (let i = 0; i < fruits. length; i++){
-      console.log(fruits[1]);
+    for (let i = 0; i < array.length; i++){
+      console.log("array is here", array);
+      console.log("i is here", i);
+      console.log("length", array.length);
     }
 
     //using forEach
