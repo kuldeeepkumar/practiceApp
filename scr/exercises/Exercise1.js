@@ -1,24 +1,42 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
 
-const Exercise1 = () =>{
+import React from "react";
+
+export function yourFuntion(item) {
+  let a = 3;
+  if (a > 2) {
+    console.log("sum", a + item);
+  }
+  console.log("item:", item);
+}
+
+const Exercise1 = () => {
+  // -------------->>>>>>>>>>>>>>>>>Variable Declaration<<<<<<<<<<<<<<<<---------------
+
+  let ke = 6549879;
+  var b = "b or boy";
+  const c = "c for cat";
+  let y;
+  y = "y for yellow";
+
+  const t = false;
+  const d = true;
+  console.log("sum is here: ", t && d);
+
+  // -------------->>>>>>>>>>>>>>>>>Conditional Statements<<<<<<<<<<<<<<<<---------------
+
   // If condition code is here
   const a = 5;
   if (a > 4) {
     console.log("am here ");
   }
-  // if else condition code is h/ If condition code is here
-
-  if (a > 4) {
-    console.log("am here ");
-  }
   // if else condition code is here
 
-   if (a > 5) {
-     console.log("block one is working");
-  } else {
-     console.log("block two is working");
-   }
+  // if (a > 5) {
+  //   console.log("block one is working");
+  // } else {
+  //   console.log("block two is working");
+  // }
 
   // else if condition code is here
 
@@ -66,21 +84,21 @@ const Exercise1 = () =>{
   // for loop code is here
 
   for (let b = 1; b <= 6; b++) {
-    console.log("hello");
+    console.log("for execution : ", b);
   }
 
   // while loop code is here
 
-  let c = 0;
-  while (c < 5) {
-    console.log("abc");
+  let i = 0;
+  while (i < 5) {
+    console.log("While execution :", i);
     i++;
   }
   // do while loop code is here
 
   let p = 0;
   do {
-    console.log(p);
+    console.log("do while execution :", p);
     p++;
   } while (p < 5);
 
@@ -107,22 +125,7 @@ const Exercise1 = () =>{
     console.log(key);
   }
 
-  // -------------->>>>>>>>>>>>>>>>>Looping Statements<<<<<<<<<<<<<<<<---------------
-
-  // for loop code is here
-
-  for (let b = 1; b <= 6; b++) {
-    console.log("for execution : ", b);
-  }
-
-  // while loop code is here
-
-  let i = 0;
-  while (i < 5) {
-    console.log("While execution :", i);
-    i++;
-  }
-  // do while loop code is here
+  // -------------->>>>>>>>>>>>>>>>>Function delaration and its use <<<<<<<<<<<<<<<<---------------
 
   return (
     <View>
@@ -130,7 +133,6 @@ const Exercise1 = () =>{
     </View>
   );
 };
+export default Exercise1;
 
-export default Exercise1
-
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
