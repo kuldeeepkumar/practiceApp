@@ -19,7 +19,8 @@ const Exercise2 = () => {
         onPress={() => {
           myFuntion();
           yourFuntion(10);
-        }}>
+        }}
+      >
         <Text>CLick Me</Text>
       </TouchableOpacity>
     </View>
