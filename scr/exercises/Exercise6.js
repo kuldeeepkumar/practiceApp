@@ -22,7 +22,7 @@ const Exercise6 = () => {
   //  2) Arrow Functions
 
   // ES5 function
-  function add(a, b) {
+  function add(a, b) { Exmo
     return a + b;
   }
 
