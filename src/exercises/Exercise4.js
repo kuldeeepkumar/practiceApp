@@ -46,7 +46,6 @@ const Exercise4 = () => {
     accumulator + currentValue,
       console.log("accumulator", accumulator),
       console.log("currentValue", currentValue);
-    console.log("total sum:", totalsum);
   });
 
   return (
