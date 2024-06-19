@@ -5,6 +5,8 @@ import Exercise2 from "./src/exercises/Exercise2";
 import Exercise3 from "./src/exercises/Exercise3";
 import { StatusBar } from "expo-status-bar";
 import { kuldeep } from "./src/components/index";
+import Exercise4 from "./src/exercises/Exercise4";
+import Exercise5 from "./src/exercises/Exercise5";
 
 export default function App() {
   return (
@@ -15,7 +17,9 @@ export default function App() {
 
       {/* Funtion Declaration  */}
       {/* <Exercise2 /> */}
-      <Exercise3 />
+      {/*<Exercise3 /> */}
+      {/*<Exercise4 /> */}
+      <Exercise5 />
     </>
   );
 }
