@@ -55,6 +55,13 @@ const Exercise6 = () => {
   console.log("assign the value  y variable:", y);
   console.log("assign the value  z variable:", z);
 
+  //Template litrlas and string interpolation
+
+  const name = "harry";
+  const great = `student ${name}`;
+
+  console.log(great);
+
   return (
     <View style={styles.container}>
       <Text>ES6 and modern java script</Text>
