@@ -17,7 +17,7 @@ const Exercise6 = () => {
   //  2) const Keywords
 
    let PI = 3.14;
-   PI = 3.14159; // 
+   PI = 3.14159; //  
 
   //  2) Arrow Functions
 

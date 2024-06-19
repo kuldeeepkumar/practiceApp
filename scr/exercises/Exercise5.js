@@ -63,7 +63,7 @@ const Exercise5 = ({ title, subtitle }) => {
   // try {
   //   console.log(divide(10, 7));
   // } catch (error) {
-  //   console.log("Error:", error.message);
+  //   console.log("Error:", error.message); 
   // }
 
   return (
