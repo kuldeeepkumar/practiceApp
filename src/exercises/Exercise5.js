@@ -34,7 +34,7 @@ const Exercise5 = ({ title, subtitle }) => {
   // 1) Using debugger
 
   // function calculate() {
-  //   let x = 10;
+  //   let x = null;
   //   debugger;
   //   console.log(x * 2);
   // }

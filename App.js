@@ -13,7 +13,12 @@ export default function App() {
       {/* <Exercise2 /> */}
       {/* <Exercise3 /> */}
       {/* <Exercise4 /> */}
-      {<Exercise5 />}
+      {
+        <Exercise5
+          title={"Exercise5"}
+          subtitle={"Exercise 5 is about error handling and debugging"}
+        />
+      }
     </>
   );
 }
