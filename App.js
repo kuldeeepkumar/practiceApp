@@ -4,6 +4,7 @@ import Exercise1 from "./src/exercises/Exercise1";
 import Exercise2 from "./src/exercises/Exercise2";
 import Exercise3 from "./src/exercises/Exercise3";
 import Exercise4 from "./src/exercises/Exercise4";
+import Exercise5 from "./src/exercises/Exercise5";
 import { StatusBar } from "expo-status-bar";
 import { kuldeep } from "./src/components/index";
 
@@ -16,10 +17,18 @@ export default function App() {
 
       {/* Funtion Declaration  */}
       {/* <Exercise2 /> */}
+
       {/* Array Manipulation  */}
       {/* <Exercise3 /> */}
+
       {/* Array Traversal methods are covered in Exercise 4  */}
-      <Exercise4 />
+      {/* <Exercise4 /> */}
+
+      {/* Error handling and debugging techniques are covered in Exercise 5  */}
+      <Exercise5
+        title={"Exercise5"}
+        subtitle={"Exercise 5 is about error handling and debugging"}
+      />
     </>
   );
 }
