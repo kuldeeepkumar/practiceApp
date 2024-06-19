@@ -1,17 +1,19 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Excercise1 from "./src/excercises/Excercise1";
-import Excercise2 from "./src/excercises/Excercise2";
-import Excercise3 from "./src/excercises/Excercise3";
-import Excercise4 from "./src/excercises/Excercise4";
+import Excercise4 from "./src/excercises/Exercise4";
+import Exercise5 from "./src/excercises/Exercise5";
 
 export default function App() {
   return (
     <>
-      {/* <Excercise1 /> */}
-      {/* <Excercise2 /> */}
-      {/* <Excercise3 /> */}
-      <Excercise4 />
+      {/*<Exercise1/>*/}
+      {/*<Exercise2/>*/}
+      {/*<Exercise3/>*/}
+      {/* <Excercise4 /> */}
+      <Exercise5
+        title={"Exercise5"}
+        subtitle={"Exercise 5 is about error handling and debugging"}
+      />
     </>
   );
 }
@@ -19,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundcolor: "#fff",
     alignItems: "center",
     justifyContent: "center",
   },
