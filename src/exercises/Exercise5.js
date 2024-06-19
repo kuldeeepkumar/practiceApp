@@ -7,15 +7,15 @@ const Exercise5 = ({ title, subtitle }) => {
   // ------->>>>>>Common JavaScript Errors<<<<<---------
 
   1; // Syntax Error Example
-     // let x = 10;
-   //console.log(x;
+  // let x = 10;
+  //console.log(x;
 
   // Missing closing parenthesis in console.log statement
 
   // 2) Reference Error Example
 
-  console.log(y);
- let y = 10;
+  // console.log(y);
+  // let y = 10;
   //  Variable y is not declared or initialized
 
   // 3) Type Error Example
@@ -63,7 +63,6 @@ const Exercise5 = ({ title, subtitle }) => {
   //   console.log(divide(10, 7));
   // } catch (error) {
   //   console.log("Error:", error.message);
-   }
 
   return (
     <View style={styles.container}>
