@@ -48,30 +48,24 @@ const Exercise4 = () => {
 
   // Using array reduce method example
 
-  const numbers = [1, 2, 3, 4, 5];
+  //const numbers = [1, 2, 3, 4, 5];
 
   //   Using reduce to calculate the sum
-  const totalSum = numbers.reduce((accumulator, currentValue) => {
-    accumulator + currentValue,
-      console.log("accumulator", accumulator),
-      console.log("currentValue", currentValue);
-  });
 
   //console.log("total sum ", totalSum);
   // console.log("total sum", totalSum)
 
   // Using array filters method
+  //const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-  //  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  // Using filter to get only even numbers
+  //const evenNumbers = numbers.filter((num) => num % 4 === 0);
 
-  //     // Using filter to get only even numbers
-  //     const evenNumbers = numbers.filter(num => num % 2 === 0);
+  //console.log("even numbers", evenNumbers);
 
-  // console.log("even numbers" , evenNumbers)
-
-  // Using map to transform elements
-  // let uppercasedFruits = fruits.map((fruit) => fruit.toUpperCase());
-  // console.log(uppercasedFruits); // ['APPLE', 'BANANA', 'CHERRY']
+  //Using map to transform elements
+  let uppercasedFruits = fruits.map((fruit) => fruit.toUpperCase());
+  console.log(uppercasedFruits); // ['APPLE', 'BANANA', 'CHERRY']
 
   return (
     <View style={styles.container}>
