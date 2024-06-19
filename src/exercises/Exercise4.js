@@ -86,5 +86,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginHorizontal: 20,
+    backgroundColor: "pink",
+    padding: 10,
   },
 });
