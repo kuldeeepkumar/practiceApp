@@ -56,7 +56,7 @@ const Exercise4 = () => {
     <View style={styles.container}>
       {colors.map((item) => (
         <>
-          <text style={styles.button}>{item}</text>
+          <Text style={styles.button}>{item}</Text>
         </>
       ))}
     </View>

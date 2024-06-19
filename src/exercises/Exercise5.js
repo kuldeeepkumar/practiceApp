@@ -8,12 +8,12 @@ const Exercise5 = ({ title, subtitle }) => {
   //missing closing parenthesis in console.log statemennt
 
   //2.reference error
-  console.log(y);
-  let y = 10;
+  //console.log(y);
+  //let y = 10;
 
   //3. Type Error
-  let z = null;
-  z.toUpperCase();
+  //let z = null;
+  //z.toUpperCase();
 
   //--------------------->>>>>>>>>>>>>>debugging techniques<<<<<<<<<<<<<<<<-------------------
   let name = "janvibhatia";
