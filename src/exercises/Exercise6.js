@@ -33,7 +33,7 @@ const Exercise6 = () => {
   console.log("first number:", first);
   console.log("second number:", second);
   //object destructuring
-  let person = { firstName: "preet", lastName: "kaur" };
+  let person = { firstName: "pinkoo", lastName: "ashu" };
   let { firstName, lastName } = person;
   console.log("firstName:", firstName);
   console.log("lastName:", lastName);
@@ -57,7 +57,7 @@ const Exercise6 = () => {
 
   //Template litrlas and string interpolation
 
-  const name = "harry";
+  const name = "harjot";
   const great = `student ${name}`;
 
   console.log(great);
