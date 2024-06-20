@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#0a0a0a",
   },
-  box1: {
+  box1: { 
     flex: 1,
     backgroundColor: "#a37c79",
     height: 200,
