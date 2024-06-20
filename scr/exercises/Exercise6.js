@@ -8,7 +8,7 @@ const Exercise6 = () => {
   //  1) let and const Keywords
 
   let count = 1000;
-  if (true) {
+  if (true) { 
     let count = 2000;
      console.log(count);
   }

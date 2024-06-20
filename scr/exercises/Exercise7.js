@@ -8,7 +8,7 @@ const Exercise7 = () => {
       <View style={styles1.box}>
         <Text style={styles1.text}>ki</Text>
       </View>
-      <View style={[styles1.box, { backgroundColor: "#e6c1d6" }]}>
+      <View style={[styles1.box, { backgroundColor: "#e6c1d6" }]}> 
         <Text style={styles1.text}> hall</Text>
       </View>
       <View style={[styles1.box, { backgroundColor: "#b59e96" }]}>
