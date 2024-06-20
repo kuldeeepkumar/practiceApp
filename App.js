@@ -6,6 +6,7 @@ import Exercise3 from "./src/Exercise/Exercise3";
 import Exercise4 from "./src/Exercise/Exercise4";
 import Exercise5 from "./src/Exercise/Exercise5";
 import Exercise6 from "./src/Exercise/Exercise6";
+import Exercise7 from "./src/Exercise/Exercise7";
 
 export default function App() {
   return (
@@ -18,7 +19,12 @@ export default function App() {
         title={"Exercise5"}
         subtitle={"Exercise 5 is about error handling and debugging"}
       /> */}
-      <Exercise6 />
+      {/* 
+      <Exercise6
+       
+      /> */}
+
+      <Exercise7 />
     </>
   );
 }
