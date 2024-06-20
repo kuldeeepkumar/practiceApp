@@ -8,10 +8,10 @@ const Exercise7 = () => {
       <View style={styles1.box}>
         <Text style={styles1.text}>Box 1</Text>
       </View>
-      <View style={[styles1.box, { backgroundColor: "green" }]}>
+      <View style={[styles1.box, { backgroundColor: "pink" }]}>
         <Text style={styles1.text}>Box 2</Text>
       </View>
-      <View style={[styles1.box, { backgroundColor: "blue" }]}>
+      <View style={[styles1.box, { backgroundColor: "grey" }]}>
         <Text style={styles1.text}>Box 3</Text>
       </View>
     </View>
@@ -33,7 +33,7 @@ const styles1 = StyleSheet.create({
   box: {
     width: 120,
     height: 120,
-    backgroundColor: "red",
+    backgroundColor: "sky blue",
     justifyContent: "center",
     alignItems: "center",
     borderTopEndRadius: 10,
