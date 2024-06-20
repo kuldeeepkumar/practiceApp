@@ -7,6 +7,7 @@ import Exercise4 from "./src/exercises/Exercise4";
 import Exercise5 from "./src/exercises/Exercise5";
 import Exercise6 from "./src/exercises/Exercise6";
 import Exercise7 from "./src/exercises/exercise7";
+import exercise8 from "./src/exercises/exercise8";
 
 export default function App() {
   return (
@@ -16,11 +17,12 @@ export default function App() {
       {/* <Exercise3/> */}
       {/* <Exercise4/> */}
       {/* <Exercise5/> */}
-      {/* <Exercise6
-        title={"Exercise7"}
-        subtitle={"Exercise 7 is about Using flex properties in React native is done and stylesheet understa…"}
+      {/* <Exercise6/> */}
+      {/* <Exercise7
+        title={"Exercise8"}
+        subtitle={"Exercise 8 is about Using flex box and position absolute and position relative design understan…"}
       /> */}
-      <Exercise7 />
+      <Exercise8 />
     </>
   );
 }
