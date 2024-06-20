@@ -7,6 +7,7 @@ import Exercise4 from "./src/exercises/Exercise4";
 import Exercise5 from "./src/exercises/Exercise5";
 import Exercise6 from "./src/exercises/Exercise6";
 import Exercise7 from "./src/exercises/Exercise7";
+import Exercise8 from "./src/exercises/Exercise8";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/*<Exercise4 />*/}
       {/*<Exercise5 />*/}
       {/*<Exercise6 />*/}
-      <Exercise7 />
+      {/*<Exercis7 />*/}
+      <Exercise8 />
       IdleDeadline={}
     </>
   );
