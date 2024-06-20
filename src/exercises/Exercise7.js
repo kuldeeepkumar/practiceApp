@@ -8,10 +8,10 @@ const Exercise7 = () => {
       <View style={styles1.box}>
         <Text style={styles1.text}>Box 1</Text>
       </View>
-      <View style={[styles1.box, { backgroundColor: "green" }]}>
+      <View style={[styles1.box, { backgroundColor: "saffron" }]}>
         <Text style={styles1.text}>Box 2</Text>
       </View>
-      <View style={[styles1.box, { backgroundColor: "blue" }]}>
+      <View style={[styles1.box, { backgroundColor: "green" }]}>
         <Text style={styles1.text}>Box 3</Text>
       </View>
     </View>
@@ -26,22 +26,22 @@ const styles1 = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: "row", // Try changing to 'column' and see the difference
-    justifyContent: "space-evenly",
-    alignItems: "center",
-    backgroundColor: "#46c2ab",
-  },
-  box: {
-    width: 120,
-    height: 120,
-    backgroundColor: "red",
     justifyContent: "center",
     alignItems: "center",
-    borderTopEndRadius: 10,
-    borderColor: "white",
-    borderWidth: 20,
+    backgroundColor: "skyblue",
+  },
+  box: {
+    width: 400,
+    height: 400,
+    backgroundColor: "brown",
+    justifyContent: "center",
+    alignItems: "center",
+    borderTopEndRadius: 30,
+    borderColor: "pink",
+    borderWidth: 10,
   },
   text: {
-    fontSize: 20,
+    fontSize: 30,
     color: "black",
   },
 });
