@@ -21,7 +21,7 @@ export default Exercise9;
 
 // -->>>>>>>>>>>  Styling with absolute and relative positioning <<<<<<<<<<<<<---
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ 
   container: {
     flex: 1,
     justifyContent: "center",
