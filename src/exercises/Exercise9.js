@@ -6,10 +6,10 @@ const Exercise9 = () => {
   return (
     <View style={styles.container}>
       <View style={[styles.box, { position: "absolute" }]}>
-        <Text style={styles.text}>Absolute Box</Text>
+        <Text style={styles.text}>neha</Text>
       </View>
-      <View style={[styles.box, { marginTop: 200, backgroundColor: "green" }]}>
-        <Text style={styles.text}>Relative Box</Text>
+      <View style={[styles.box, { marginTop: 300, backgroundColor: "green" }]}>
+        <Text style={styles.text}>harman</Text>
       </View>
     </View>
   );
@@ -24,17 +24,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "pink",
   },
   box: {
-    width: 100,
-    height: 100,
-    backgroundColor: "red",
+    width: 500,
+    height: 300,
+    backgroundColor: "blue",
     justifyContent: "center",
     alignItems: "center",
   },
   text: {
-    fontSize: 15,
-    color: "white",
+    fontSize: 30,
+    color: "black",
   },
 });
