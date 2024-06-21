@@ -5,13 +5,19 @@ import React from "react";
 const Exercise11 = () => {
   return (
     <View style={styles.container}>
-      <TouchableOpacity>
+     <TouchableOpacity>
         <Image
           style={styles.image}
           source={{
             uri: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           }}
-        />
+         />
+          <Image
+          style={styles.image}
+          source={{
+           uri:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5rQp-6i6w6uZwm1Pdtn-C-jj1nT-1Tm3Xag&s",
+          }}
+          />
       </TouchableOpacity>
     </View>
   );
@@ -25,8 +31,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   image: {
-    width: 1000,
-    height: 1000,
+    width: 600,
+    height: 600,
+    borderRadius: 200,
+  },
+  image: {
+    width: 300,
+    height: 400,
     borderRadius: 200,
   },
 });
