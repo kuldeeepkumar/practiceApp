@@ -8,7 +8,7 @@ const Exercise10 = () => {
     return (
     <View style={styles.container}>
         {/*Example with Button: */}
-        <Text style={{ marginBottom: 10 }}> This one is normal button 👇 </Text>
+        <Text style={{ marginBottom: 10 }}> my name is aashima sharma 😎🥰 </Text>
         <Button
         title="Press Me"
         color="#841584"
@@ -18,12 +18,12 @@ const Exercise10 = () => {
         {/* Example with TouchableOpacity: */}
 
         <Text style={{ marginVertical: 20 }}>
-            This button is with Touchable Opacity 👇
+            i am student of kms college🏟🏡🏡🏠
         </Text>
         <TouchableOpacity
         style={styles.button}
         onPress={() => alert("Button Pressed!")}>
-            <Text style={styles.buttonText}>Press Me</Text>
+            <Text style={styles.buttonText}>PRESS ME</Text>
         </TouchableOpacity>
     </View>
     );
