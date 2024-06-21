@@ -17,6 +17,7 @@ const Exercise11 = () => {
   );
 };
 
+
 const styles = StyleSheet.create({
   // ---->>>>>>>>>>> Styling images and multimedia components <<<<<<<<<<<<<-----
   container: {
