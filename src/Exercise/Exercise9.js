@@ -8,7 +8,7 @@ const Exercise9 = () => {
       <View style={[styles.box, { position: "absolute" }]}>
         <Text style={styles.text}>Absolute Box</Text>
       </View>
-      <View style={[styles.box, { marginTop: 40, backgroundColor: "green" }]}>
+      <View style={[styles.box, { marginTop: 50, backgroundColor: "pink" }]}>
         <Text style={styles.text}>Relative Box</Text>
       </View>
     </View>
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   box: {
     width: 100,
     height: 100,
-    backgroundColor: "red",
+    backgroundColor: "skyblue",
     justifyContent: "center",
     alignItems: "center",
   },
