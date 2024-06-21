@@ -5,7 +5,7 @@ import { Button, TouchableOpacity } from "react-native-web";
 const Exercise10 = () => {
   return (
     <View style={styles.container}>
-      <text style={{ marginBottom: 10 }}>What is My name🧐?</text>
+      <Text style={{ marginBottom: 10 }}>What is My name🧐?</Text>
       <Button
         title="press me"
         color="#5aa2a6"
