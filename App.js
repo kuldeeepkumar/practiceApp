@@ -13,12 +13,15 @@ import Exercise10 from "./src/exercises/Exercise10";
 import Exercise11 from "./src/exercises/Exercise11";
 import Exercise12 from "./src/exercises/Exercise12";
 import Exercise13 from "./src/exercises/Exercise13";
+import Exercise14 from "./src/exercises/Exercise14";
+import Exercise15 from "./src/exercises/Exercise15";
 
 export default function App() {
   return (
     <>
       {/* <Excercise1 /> */}
       {/*<Excercise2 /> */}
+
       {/*  <Excercise3 /> */}
       {/* <Exercise4 /> */}
       {/* <Exercise5 /> */}
@@ -29,7 +32,9 @@ export default function App() {
       {/* <Exercise10 /> */}
       {/*Exercise11 /> */}
       {/*<Exercise12 />*/}
-      <Exercise13 />
+      {/* <Exercise13 /> */}
+      <Exercise14 />
+      {/* <Exercise15 /> */}
     </>
   );
 }
