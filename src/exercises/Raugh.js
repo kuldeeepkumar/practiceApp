@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import React from "react";
 import { yourFunction } from "./Exercise2";
-
+import { containerStyle } from "../styles";
 const Raugh = () => {
   // Funtion Declaration code is here
   function myFuntion(item) {
@@ -13,13 +13,14 @@ const Raugh = () => {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity
+      <View style={containerStyle.container}></View>
+      <TouchableOpacity>
         style={styles.button}
-        onPress={() => {
+        onPress=
+        {() => {
           myFuntion();
           yourFunction(10);
         }}
-      >
         <Text>CLick Me</Text>
       </TouchableOpacity>
     </View>
@@ -29,12 +30,12 @@ const Raugh = () => {
 export default Raugh;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
+  // container: {
+  //   flex: 1,
+  //   backgroundColor: "#fff",
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  // },
   button: {
     backgroundColor: "pink",
     padding: 10,
