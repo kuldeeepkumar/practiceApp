@@ -14,7 +14,7 @@ const Exercise14 = () => {
   useEffect(() => {
     setCount(count + 1);
     alert("Component mounted or count updated");
-  }, [count, setCount]);
+  }, [count, setCount, alert]);
 
   return (
     <View style={containerStyle.container}>
