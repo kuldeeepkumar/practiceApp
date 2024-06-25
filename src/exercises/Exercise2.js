@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import React from "react";
 import { yourfunction } from "./Exercise1";
+import { containerStyle } from "./styles/Index";
 
 const Exercise2 = () => {
   function myfunction() {
@@ -13,7 +14,7 @@ const Exercise2 = () => {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={containerStyle.container}>
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
