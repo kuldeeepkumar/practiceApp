@@ -2,6 +2,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import React from "react";
 import { yourFuntion } from './Exercise1';
+import { containerStyle } from "../styles";
 
 
 const Exercise2 = () => {
@@ -15,6 +16,8 @@ const Exercise2 = () => {
 
   return (
     <View style={styles.container}>
+      <View style={containerStyle.container}>
+      </View>
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
