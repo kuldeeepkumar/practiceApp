@@ -11,11 +11,13 @@ import Exercise8 from "./src/exercises/Exercise8";
 import Exercise9 from "./src/exercises/Exercise9";
 import Exercise10 from "./src/exercises/Exercise10";
 import Exercise11 from "./src/exercises/Exercise11";
+import Exercise12 from "./src/exercises/Exercise12";
+
 export default function App() {
   return (
     <>
       {/* <Exercise1 /> */}
-      {/* <Exercise2 /> */}
+      {/*<Exercise2 />*/}
       {/* <Exercise3 /> */}
       {/* <Exercise4 /> */}
       {/*
@@ -29,7 +31,8 @@ export default function App() {
       {/*<Exercise8 />*/}
       {/*<Exercise9 />*/}
       {/*<Exercise10 />*/}
-      {<Exercise11 />}
+      {/*<Exercise11 />*/}
+      {<Exercise12 />}
     </>
   );
 }
