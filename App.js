@@ -3,6 +3,9 @@ import Exercise10 from "./src/exercises/Exercise10";
 import Exercise11 from "./src/exercises/Exercise11";
 import Exercise12 from "./src/exercises/Exercise12";
 import Exercise13 from "./src/exercises/Exercise13";
+import Exercise14 from "./src/exercises/Exercise14";
+import Exercise15 from "./src/exercises/Exercise15";
+import Exercise16 from "./src/exercises/Exercise16";
 import Exercise2 from "./src/exercises/Exercise2";
 import Exercise3 from "./src/exercises/Exercise3";
 import Exercise4 from "./src/exercises/Exercise4";
@@ -46,21 +49,17 @@ export default function App() {
       {/* Creating reusable styles and components are covered in Exercise 12 */}
       {/* <Exercise12 /> */}
 
-      {/*Comprehensive list of React Native Syles are covered in Exercise 12 */}
-      <Exercise13 />
+      {/*Comprehensive list of React Native Syles are covered in Exercise 13 */}
+      {/* <Exercise13 /> */}
+
+      {/*Hooks and its Life Cycle is covered in Exercise 14 */}
+      {/* <Exercise14 /> */}
+
+      {/*Navigatoin in React Native is covered in Exercise 14 */}
+      <Exercise15 />
+
+      {/* How to Handle list is covered in this  Exercise 15 */}
+      {/* <Exercise16 /> */}
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  button: {
-    backgroundColor: "pink",
-    padding: 10,
-  },
-});
