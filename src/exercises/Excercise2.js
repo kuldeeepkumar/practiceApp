@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { TouchableOpacity } from "react-native";
+import { containerStyle } from "../styles";
 import { yourFunction } from "./Excercise1";
 
 const Excercise2 = () => {
@@ -13,6 +14,7 @@ const Excercise2 = () => {
 
   return (
     <View style={styles.container}>
+      <View style={containerStyle.container}></View>
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
@@ -29,12 +31,12 @@ const Excercise2 = () => {
 export default Excercise2;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
+  // container: {
+  //   flex: 1,
+  //   backgroundColor: "#fff",
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  // },
   button: {
     backgroundColor: "pink",
     padding: 10,
