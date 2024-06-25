@@ -14,7 +14,6 @@ import Exercise10 from "./src/exercises/Exercise10";
 import Exercise11 from "./src/exercises/Exercise11";
 import Exercise12 from "./src/exercises/Exercise12";
 import Exercise13 from "./src/exercises/Exercise13";
-import Test from "./src/exercises/Test";
 
 export default function App() {
   return (
@@ -33,7 +32,6 @@ export default function App() {
       {/* <Exercise11 /> */}
       {/* <Exercise12 /> */}
       <Exercise13 />
-      {/* <Test />*/}
     </>
   );
 }

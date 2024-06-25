@@ -8,9 +8,9 @@ const Exercise13 = () => {
       <View style={styles.box}>
         <Text style={styles.text}>Hello </Text>
       </View>
-      <view style={style.box}>
-        <text style={style.text}>Rajveer and Mandeep</text>
-      </view>
+      <View style={styles.box}>
+        <Text style={styles.text}>Rajveer and Mandeep</Text>
+      </View>
     </ImageBackground>
   );
 };
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     letterSpacing: 10,
     lineHeight: 30,
 
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "bold",
     textAlign: "center",
   },
