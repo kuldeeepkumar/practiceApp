@@ -12,6 +12,7 @@ import Exercise9 from "./scr/exercises/Exercise9";
 import Exercise10 from "./scr/exercises/Exercise10";
 import Exercise11 from "./scr/exercises/Exercise11";
 import Exercise12 from "./scr/exercises/Exercise12";
+import Exercise13 from './scr/exercises/Exercise13';
 
 
 
@@ -29,7 +30,8 @@ export default function App() {
        {/*<Exercise9/> */}
        {/*<Exercise11/> */}
        {/*<Exercise10/> */}
-       <Exercise12/>      
+         {/*<Exercise12/> */}
+       <Exercise13/>      
             
 
       
