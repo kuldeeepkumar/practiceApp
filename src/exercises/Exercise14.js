@@ -1,15 +1,21 @@
 import { Button, Text, View } from "react-native";
 import React, { useEffect, useState } from "react";
+
 import { containerStyle } from "../styles";
+
 const Exercise14 = () => {
   // ------------------>>>>>>>>>>>>>>>>>>> Hooks and Lifecycle <<<<<<<<<<<<<<<<<<--------------------------
+
   const [count, setCount] = useState(0);
+
   const [name, setName] = useState("");
-  console.log("name is here ", name);
+
   useEffect(() => {
-    setCount(count + 1);
     alert("Component mounted or count updated");
-  }, [count, setCount, alert]);
+    return () => {
+      alert("Component will unmount or count will update");
+    };
+  }, [count]);
 
   return (
     <View style={containerStyle.container}>
@@ -26,4 +32,5 @@ const Exercise14 = () => {
     </View>
   );
 };
+
 export default Exercise14;
