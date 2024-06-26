@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Exercise13 from "./src/excercises/Exercise13";
+import Exercise14 from "./src/excercises/Exercise14";
 
 export default function App() {
   return (
@@ -8,9 +8,9 @@ export default function App() {
       {/*<Exercise1/>*/}
       {/*<Exercise2/>*/}
       {/*<Exercise3/>*/}
-      {/*<Exercise12/>*/}
+      {/*<Exercise13/>*/}
 
-      <Exercise13 />
+      <Exercise14 />
     </>
   );
 }
