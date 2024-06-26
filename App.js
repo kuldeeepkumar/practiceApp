@@ -14,6 +14,7 @@ import Exercise6 from "./src/exercises/Exercise6";
 import Exercise7 from "./src/exercises/Exercise7";
 import Exercise8 from "./src/exercises/Exercise8";
 import Exercise9 from "./src/exercises/Exercise9";
+import Navigation from "./src/navigation";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet } from "react-native";
 
@@ -48,18 +49,16 @@ export default function App() {
       {/* <Exercise11 /> */}
       {/* Creating reusable styles and components are covered in Exercise 12 */}
       {/* <Exercise12 /> */}
-
       {/*Comprehensive list of React Native Syles are covered in Exercise 13 */}
       {/* <Exercise13 /> */}
-
       {/*Hooks and its Life Cycle is covered in Exercise 14 */}
       {/* <Exercise14 /> */}
-
       {/*Navigatoin in React Native is covered in Exercise 14 */}
-      <Exercise15 />
-
+      {/* <Exercise15 /> */}
       {/* How to Handle list is covered in this  Exercise 15 */}
       {/* <Exercise16 /> */}
+
+      <Navigation />
     </>
   );
 }
