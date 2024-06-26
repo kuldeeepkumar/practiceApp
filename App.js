@@ -5,6 +5,7 @@ import Exercise12 from "./src/exercises/Exercise12";
 import Exercise13 from "./src/exercises/Exercise13";
 import Exercise14 from "./src/exercises/Exercise14";
 import Exercise15 from "./src/exercises/Exercise15";
+import Exercise16 from "./src/exercises/Exercise16";
 
 export default function App() {
   return (
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Exercise12 />*/}
       {/* <Exercise13 />*/}
       {/* <Exercise14 />*/}
-      <Exercise15 />
+      {/* <Exercise15 />*/}
+      <Exercise16 />
     </>
   );
 }
