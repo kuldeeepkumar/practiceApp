@@ -7,7 +7,7 @@ const Exercise13 = () => {
     <ImageBackground style={styles.background}>
       <View style={styles.box}>
         <Text style={styles.text}>Hello World</Text>
-      </View>
+      </View>{" "}
     </ImageBackground>
   );
 };
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     gap: 5,
-    flexDirection: "row",
+    flexDirection: "column",
     overflow: "visible",
   },
   box: {

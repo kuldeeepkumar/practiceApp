@@ -25,7 +25,7 @@ const Exercise14 = () => {
         title="Increment"
         onPress={() => {
           {
-            setCount(count + 1), setName("Deepak");
+            setCount(count + 1), setName("prabh");
           }
         }}
       />
