@@ -3,7 +3,7 @@ import React from "react";
 
 
 import { containerStyle } from "../styles";
-import ReusableButton from "./componenets/ResuableButton";
+import ReusableButton from "../componenets/ResuableButton";
 
 
 const Exercise12 = () => {
