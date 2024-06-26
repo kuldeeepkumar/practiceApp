@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Exercise14 from "./src/exercises/Exercise14";
 import Exercise13 from "./src/exercises/Exercise13";
 import Exercise15 from "./src/exercises/Exercise15";
+import Exercise16 from "./src/exercises/Exercise16";
 
 export default function App() {
   return (
@@ -28,7 +29,8 @@ export default function App() {
 
       {/*Comprehensive list of React Native Syles are covered in Exercise 12 */}
       {/* <Exercise14 /> */}
-      <Exercise15 />
+      {/* <Exercise15 /> */}
+      <Exercise16 />
     </>
   );
 }

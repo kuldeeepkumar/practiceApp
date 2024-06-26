@@ -3,9 +3,9 @@ import { FlatList, Text, View } from "react-native";
 import React from "react";
 
 const DATA = [
-  { id: "1", title: "Item 1" },
-  { id: "2", title: "Item 2" },
-  { id: "3", title: "Item 3" },
+  { id: "1", title: "Item 100" },
+  { id: "2", title: "Item 200" },
+  { id: "3", title: "Item 300" },
   // Add more items
 ];
 
