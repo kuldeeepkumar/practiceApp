@@ -22,7 +22,8 @@ export default function App() {
       {/* <Exercise11 />*/}
       {/* <Exercise12 />*/}
       {/* <Exercise13 />*/}
-      <Exercise14 />
+      {/* <Exercise14 />*/}
+      <Exercise15 />
     </>
   );
 }

@@ -4,6 +4,7 @@ import React from "react";
 import { containerStyle } from "../styles";
 
 const Home = ({ navigation }) => {
+  console.log("navigation", navigation);
   return (
     <View style={containerStyle.container}>
       <Text>Home Screen</Text>
