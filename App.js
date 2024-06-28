@@ -1,3 +1,4 @@
+import BottomTabNavigation from "./src/navigation/bottomNavigation/index";
 import Exercise1 from "./src/exercises/Exercise1";
 import Exercise10 from "./src/exercises/Exercise10";
 import Exercise11 from "./src/exercises/Exercise11";
@@ -57,8 +58,8 @@ export default function App() {
       {/* <Exercise15 /> */}
       {/* How to Handle list is covered in this  Exercise 15 */}
       {/* <Exercise16 /> */}
-
-      <Navigation />
+      {/* <Navigation /> */}
+      <BottomTabNavigation />
     </>
   );
 }

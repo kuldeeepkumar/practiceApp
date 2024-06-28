@@ -14,15 +14,13 @@ const Welcome = () => {
       {isLoading === false ? (
         <ImageBackground
           source={WelcomeImage}
-          style={[containerStyle.container, { width: "100", height: "100" }]}
-        >
+          style={[containerStyle.container, { width: "100", height: "100" }]}>
           <View
             style={{
               flex: 4,
               justifyContent: "center",
               alignItems: "center",
-            }}
-          >
+            }}>
             <Text
               style={{
                 fontSize: 40,
@@ -30,8 +28,7 @@ const Welcome = () => {
                 color: "black",
                 backgroundColor: "yellow",
                 paddingHorizontal: 10,
-              }}
-            >
+              }}>
               CURRENCY
             </Text>
             <Text
@@ -44,8 +41,7 @@ const Welcome = () => {
                 padding: 12,
                 width: 233,
                 textAlign: "center",
-              }}
-            >
+              }}>
               CONVERTER APP
             </Text>
           </View>
