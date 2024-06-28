@@ -14,7 +14,7 @@ import Exercise6 from "./src/exercises/Exercise6";
 import Exercise7 from "./src/exercises/Exercise7";
 import Exercise8 from "./src/exercises/Exercise8";
 import Exercise9 from "./src/exercises/Exercise9";
-import Navigation from "./src/navigation";
+import Navigation from "./src/navigation/stackNavigation";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet } from "react-native";
 
