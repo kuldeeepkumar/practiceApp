@@ -16,6 +16,7 @@ import Exercise13 from "./src/exercises/Exercise13";
 import Exercise14 from "./src/exercises/Exercise14";
 import Exercise15 from "./src/exercises/Exercise15";
 import Exercise16 from "./src/exercises/Exercise16";
+import Navigation from "./src/navigation";
 
 export default function App() {
   return (
@@ -39,7 +40,8 @@ export default function App() {
       {/*<Exercise13 />*/}
       {/*<Exercise14 />*/}
       {/*<Exercise15/>*/}
-      <Exercise16 />
+      {/*<Exercise16 />*/}
+      <Navigation />
     </>
   );
 }
